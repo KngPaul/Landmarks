@@ -24,7 +24,9 @@ struct Badge: View {
             GeometryReader { geometry in
                 badgeSymbols
                     .scaleEffect(1.0/4.0, anchor: .top)
-                    .position(x: geometry.size.width / 2.0, y: (3.0 / 4.0) * geometry.size.height)
+                    .position(
+                        x: geometry.size.width / 2.0, y: (3.0 / 4.0) * geometry.size.height
+                    )
             }
         }
         .scaledToFit()
