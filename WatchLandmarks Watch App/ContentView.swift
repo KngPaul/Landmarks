@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Landmarks
+//  WatchLandmarks Watch App
 //
-//  Created by Paul Onawola on 20/12/2023.
+//  Created by Paul Onawola on 29/12/2023.
 //
 
 import SwiftUI
